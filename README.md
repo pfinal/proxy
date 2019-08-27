@@ -1,6 +1,6 @@
 ## http or https proxy
 
-this is proxy for http or https with golang 
+this is proxy for http or https with golang
 
 ### build
 
@@ -12,8 +12,8 @@ go build
 ### run
 
 ```
-./goproxy
-./goproxy --port :8080
+./proxy
+./proxy --port :8080
 
 ```
 
