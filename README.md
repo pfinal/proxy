@@ -5,7 +5,7 @@ this is proxy for http or https with golang
 ### docker
 
 ```
-docker run -d --restart=always --name proxy --cpus 0.1 -m 50m -p 8080:8080 pfinal/proxy
+docker run -d -p 8080:8080 pfinal/proxy
 ```
 
 ### example
