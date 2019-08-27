@@ -13,7 +13,10 @@ go build
 
 ```
 ./proxy
+
 ./proxy --port :8080
+
+docker run -d --restart=always --name proxy --cpus 0.1 -m 50m -p 8080:8080 pfinal/proxy
 
 ```
 
